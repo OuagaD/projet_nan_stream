@@ -1255,6 +1255,7 @@
 
 
 /********************MUSIC******************************************MUSIC************************************MUSIC****/
+
 .bdymusic{
     height: 1850px;
     background-color: #59585c;
@@ -1390,166 +1391,712 @@
 
 
 /********************LIBRARY******************************************LIBRARY************************************LIBRARY****/
-.bdylbry{
-    background-color: #8b9966;
-}
-.cont_rct{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-    margin-left: 20px;
-    width: 100px;
-    height: 45px;
-}
-.lbry_lg_rct{
-    border: 1px solid white;
-    border-radius: 5px;
-    background-image: url('./img/fleche.png');
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-}
-.lbry_txt_rct{
-    color: white;
-    font-family: 'MonteCarlo', cursive;
-    font-size: 1.5em;
-}
-.contlbry_rct{
-    border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 800px;
-}
-.cont_lbry_msc_rct{
-    border: 2px solid white;
-    width: 350px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.lbry_name_msc{
-    border: 2px solid red;
-    width: 100px;
-    text-align: center;
-    font-size: 1.5em;
-    font-family: 'Mea Culpa', cursive;
-    color: white;
-    background-color: black;
-}
-.cont_msc_rct{
-    border: 2px solid blue;
-    width: 100%;
-}
-.partlbryrct{
-    border: 2px solid red;
-    height: 130px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.lbry_msc1_rct{
-    border: 2px solid green;
-    background-image: url('./img/widgunz.jpg');
-    background-size: cover;
-    width: 150px;
-    height: 100px;
-}
-.lbry_msc2_rct{
-    border: 2px solid green;
-    background-image: url('./img/arafat.jpg');
-    background-size: cover;
-    width: 150px;
-    height: 100px;
-}
-.lbry_msc3_rct{
-    border: 2px solid green;
-    background-image: url('./img/damso_2.jpg');
-    background-size: cover;
-    width: 150px;
-    height: 100px;
-}
-.lbry_msc4_rct{
-    border: 2px solid green;
-    background-image: url('./img/asap-rocky-new-album-grid.webp');
-    background-size: cover;
-    width: 150px;
-    height: 100px;
+
+@media screen and (max-width: 450px) {
+    
+    .bdylbry{
+        background-color: #8b9966;
+    }
+    .cont_rct{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        margin-left: 20px;
+        width: 100px;
+        height: 45px;
+    }
+    .lbry_lg_rct{
+        border: 1px solid white;
+        border-radius: 5px;
+        background-image: url('./img/fleche.png');
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+    }
+    .lbry_txt_rct{
+        color: white;
+        font-family: 'MonteCarlo', cursive;
+        font-size: 1.5em;
+    }
+    .contlbry_rct{
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+    .cont_lbry_msc_rct{
+        border: 2px solid white;
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lbry_name_msc{
+        border: 2px solid red;
+        width: 100px;
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Mea Culpa', cursive;
+        color: white;
+        background-color: black;
+    }
+    .cont_msc_rct{
+        border: 2px solid blue;
+        width: 100%;
+    }
+    .partlbryrct{
+        border: 2px solid red;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .lbry_msc1_rct{
+        border: 2px solid green;
+        background-image: url('./img/widgunz.jpg');
+        background-size: cover;
+        width: 150px;
+        height: 100px;
+    }
+    .lbry_msc2_rct{
+        border: 2px solid green;
+        background-image: url('./img/arafat.jpg');
+        background-size: cover;
+        width: 150px;
+        height: 100px;
+    }
+    .lbry_msc3_rct{
+        border: 2px solid green;
+        background-image: url('./img/damso_2.jpg');
+        background-size: cover;
+        width: 150px;
+        height: 100px;
+    }
+    .lbry_msc4_rct{
+        border: 2px solid green;
+        background-image: url('./img/asap-rocky-new-album-grid.webp');
+        background-size: cover;
+        width: 150px;
+        height: 100px;
+    }
+    
+    
+    /******************/
+    .cont_lbry_vdeo_rct{
+        border: 2px solid white;
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lbry_name_vdeo{
+        border: 2px solid red;
+        width: 100px;
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Mea Culpa', cursive;
+        color: white;
+        background-color: black;
+    }
+    .cont_vdeo_rct{
+        border: 2px solid blue;
+        width: 100%;
+    }
+    /* .partlbryrct{
+        border: 2px solid red;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    } */
+    .lbry_vdeo1_rct{
+        border: 2px solid green;
+        background-image: url('./img/widgunz.jpg');
+        background-size: cover;
+        width: 150px;
+        height: 100px;
+    }
+    .lbry_vdeo2_rct{
+        border: 2px solid green;
+        background-image: url('./img/arafat.jpg');
+        background-size: cover;
+        width: 150px;
+        height: 100px;
+    }
+    .lbry_vdeo3_rct{
+        border: 2px solid green;
+        background-image: url('./img/damso_2.jpg');
+        background-size: cover;
+        width: 150px;
+        height: 100px;
+    }
+    .lbry_vdeo4_rct{
+        border: 2px solid green;
+        background-image: url('./img/asap-rocky-new-album-grid.webp');
+        background-size: cover;
+        width: 150px;
+        height: 100px;
+    }
+    
+    /***************/
+    .lbry_lg_fvrs{
+        border: 1px solid white;
+        border-radius: 5px;
+        background-image: url('./img/etoile.png');
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+        background-image: url('../css/img/Capture_wizkhalifa.png');
+        background-size: cover;
+    }
+
+}  
+
+
+
+
+
+
+
+
+
+@media screen  and (min-width: 460px) and (max-width: 1100px) {
+    
+    .bdylbry{
+        background-color: #8b9966;
+    }
+    .cont_rct{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        margin-left: 20px;
+        width: 200px;
+        height: 80px;
+    }
+    .lbry_lg_rct{
+        border: 1px solid white;
+        border-radius: 5px;
+        background-image: url('./img/fleche.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+    .lbry_txt_rct{
+        color: white;
+        font-family: 'MonteCarlo', cursive;
+        font-size: 3em;
+    }
+    .contlbry_rct{
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 2500px;
+    }
+    .cont_lbry_msc_rct{
+        border: 2px solid rgb(198, 228, 29);
+        width: 800px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lbry_name_msc{
+        border: 2px solid red;
+        width: 150px;
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Mea Culpa', cursive;
+        color: white;
+        background-color: black;
+    }
+    .cont_msc_rct{
+        border: 2px solid blue;
+        width: 100%;
+    }
+    .partlbryrct{
+        border: 2px solid red;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .lbry_msc1_rct{
+        border: 2px solid green;
+        background-image: url('./img/widgunz.jpg');
+        background-size: cover;
+        width: 350px;
+        height: 300px;
+    }
+    .lbry_msc2_rct{
+        border: 2px solid green;
+        background-image: url('./img/arafat.jpg');
+        background-size: cover;
+        width: 350px;
+        height: 300px;
+    }
+    .lbry_msc3_rct{
+        border: 2px solid green;
+        background-image: url('./img/damso_2.jpg');
+        background-size: cover;
+        width: 350px;
+        height: 300px;
+    }
+    .lbry_msc4_rct{
+        border: 2px solid green;
+        background-image: url('./img/asap-rocky-new-album-grid.webp');
+        background-size: cover;
+        width: 350px;
+        height: 300px;
+    }
+    
+    
+    /******************/
+    .cont_lbry_vdeo_rct{
+        border: 2px solid white;
+        width: 800px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lbry_name_vdeo{
+        border: 2px solid red;
+        width: 150px;
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Mea Culpa', cursive;
+        color: white;
+        background-color: black;
+    }
+    .cont_vdeo_rct{
+        border: 2px solid blue;
+        width: 100%;
+    }
+    /* .partlbryrct{
+        border: 2px solid red;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    } */
+    .lbry_vdeo1_rct{
+        border: 2px solid green;
+        background-image: url('./img/widgunz.jpg');
+        background-size: cover;
+        width: 350px;
+        height: 300px;
+    }
+    .lbry_vdeo2_rct{
+        border: 2px solid green;
+        background-image: url('./img/arafat.jpg');
+        background-size: cover;
+        width: 350px;
+        height: 300px;
+    }
+    .lbry_vdeo3_rct{
+        border: 2px solid green;
+        background-image: url('./img/damso_2.jpg');
+        background-size: cover;
+        width: 350px;
+        height: 300px;
+    }
+    .lbry_vdeo4_rct{
+        border: 2px solid green;
+        background-image: url('./img/asap-rocky-new-album-grid.webp');
+        background-size: cover;
+        width: 350px;
+        height: 300px;
+    }
+    
+    /***************/
+    .lbry_lg_fvrs{
+        border: 1px solid white;
+        border-radius: 5px;
+        background-image: url('./img/etoile.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+        background-image: url('../css/img/Capture_wizkhalifa.png');
+        background-size: cover;
+    }
+
 }
 
 
-/******************/
-.cont_lbry_vdeo_rct{
-    border: 2px solid white;
-    width: 350px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.lbry_name_vdeo{
-    border: 2px solid red;
-    width: 100px;
-    text-align: center;
-    font-size: 1.5em;
-    font-family: 'Mea Culpa', cursive;
-    color: white;
-    background-color: black;
-}
-.cont_vdeo_rct{
-    border: 2px solid blue;
-    width: 100%;
-}
-/* .partlbryrct{
-    border: 2px solid red;
-    height: 130px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-} */
-.lbry_vdeo1_rct{
-    border: 2px solid green;
-    background-image: url('./img/widgunz.jpg');
-    background-size: cover;
-    width: 150px;
-    height: 100px;
-}
-.lbry_vdeo2_rct{
-    border: 2px solid green;
-    background-image: url('./img/arafat.jpg');
-    background-size: cover;
-    width: 150px;
-    height: 100px;
-}
-.lbry_vdeo3_rct{
-    border: 2px solid green;
-    background-image: url('./img/damso_2.jpg');
-    background-size: cover;
-    width: 150px;
-    height: 100px;
-}
-.lbry_vdeo4_rct{
-    border: 2px solid green;
-    background-image: url('./img/asap-rocky-new-album-grid.webp');
-    background-size: cover;
-    width: 150px;
-    height: 100px;
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1110px) and (max-width: 1450px) {
+    
+    .bdylbry{
+        background-color: #8b9966;
+    }
+    .cont_rct{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        margin-left: 20px;
+        width: 290px;
+        height: 100px;
+    }
+    .lbry_lg_rct{
+        border: 1px solid white;
+        border-radius: 5px;
+        background-image: url('./img/fleche.png');
+        background-size: cover;
+        width: 55px;
+        height: 55px;
+    }
+    .lbry_txt_rct{
+        color: white;
+        font-family: 'MonteCarlo', cursive;
+        font-size: 4.5em;
+    }
+    .contlbry_rct{
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1300px;
+    }
+    .cont_lbry_msc_rct{
+        border: 2px solid rgb(198, 228, 29);
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lbry_name_msc{
+        border: 2px solid red;
+        width: 290px;
+        height: 100px;
+        text-align: center;
+        font-size: 4.5em;
+        font-family: 'Mea Culpa', cursive;
+        color: white;
+        background-color: black;
+    }
+    .cont_msc_rct{
+        border: 2px solid blue;
+        display: flex;
+        width: 100%;
+    }
+    .partlbryrct{
+        border: 2px solid red;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .lbry_msc1_rct{
+        border: 2px solid green;
+        background-image: url('./img/widgunz.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_msc2_rct{
+        border: 2px solid green;
+        background-image: url('./img/arafat.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_msc3_rct{
+        border: 2px solid green;
+        background-image: url('./img/damso_2.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_msc4_rct{
+        border: 2px solid green;
+        background-image: url('./img/asapRoc.jpeg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    
+    
+    /******************/
+    .cont_lbry_vdeo_rct{
+        border: 2px solid white;
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lbry_name_vdeo{
+        border: 2px solid red;
+        width: 290px;
+        height: 100px;
+        text-align: center;
+        font-size: 4.5em;
+        font-family: 'Mea Culpa', cursive;
+        color: white;
+        background-color: black;
+    }
+    .cont_vdeo_rct{
+        border: 2px solid blue;
+        display: flex;
+        width: 100%;
+    }
+    /* .partlbryrct{
+        border: 2px solid red;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    } */
+    .lbry_vdeo1_rct{
+        border: 2px solid green;
+        background-image: url('./img/widgunz.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_vdeo2_rct{
+        border: 2px solid green;
+        background-image: url('./img/arafat.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_vdeo3_rct{
+        border: 2px solid green;
+        background-image: url('./img/damso_2.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_vdeo4_rct{
+        border: 2px solid green;
+        background-image: url('./img/asapRoc.jpeg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    
+    /***************/
+    .lbry_lg_fvrs{
+        border: 1px solid white;
+        border-radius: 5px;
+        background-image: url('./img/etoile.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+        background-image: url('../css/img/Capture_wizkhalifa.png');
+        background-size: cover;
+    }
+
 }
 
-/***************/
-.lbry_lg_fvrs{
-    border: 1px solid white;
-    border-radius: 5px;
-    background-image: url('./img/etoile.png');
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-}
-.img{
-    height: 100px;
-    width: 100px;
-    background-image: url('../css/img/Capture_wizkhalifa.png');
-    background-size: cover;
+
+
+
+
+
+
+
+
+/*********************/
+@media screen and (min-width: 1500px) {
+    
+    .bdylbry{
+        background-color: #8b9966;
+    }
+    .cont_rct{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        margin-left: 20px;
+        width: 290px;
+        height: 100px;
+    }
+    .lbry_lg_rct{
+        border: 1px solid white;
+        border-radius: 5px;
+        background-image: url('./img/fleche.png');
+        background-size: cover;
+        width: 55px;
+        height: 55px;
+    }
+    .lbry_txt_rct{
+        color: white;
+        font-family: 'MonteCarlo', cursive;
+        font-size: 4.5em;
+    }
+    .contlbry_rct{
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1300px;
+    }
+    .cont_lbry_msc_rct{
+        border: 2px solid rgb(198, 228, 29);
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lbry_name_msc{
+        border: 2px solid red;
+        width: 290px;
+        height: 100px;
+        text-align: center;
+        font-size: 4.5em;
+        font-family: 'Mea Culpa', cursive;
+        color: white;
+        background-color: black;
+    }
+    .cont_msc_rct{
+        border: 2px solid blue;
+        display: flex;
+        width: 100%;
+    }
+    .partlbryrct{
+        border: 2px solid red;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .lbry_msc1_rct{
+        border: 2px solid green;
+        background-image: url('./img/widgunz.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_msc2_rct{
+        border: 2px solid green;
+        background-image: url('./img/arafat.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_msc3_rct{
+        border: 2px solid green;
+        background-image: url('./img/damso_2.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_msc4_rct{
+        border: 2px solid green;
+        background-image: url('./img/asapRoc.jpeg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    
+    
+    /******************/
+    .cont_lbry_vdeo_rct{
+        border: 2px solid white;
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lbry_name_vdeo{
+        border: 2px solid red;
+        width: 290px;
+        height: 100px;
+        text-align: center;
+        font-size: 4.5em;
+        font-family: 'Mea Culpa', cursive;
+        color: white;
+        background-color: black;
+    }
+    .cont_vdeo_rct{
+        border: 2px solid blue;
+        display: flex;
+        width: 100%;
+    }
+    /* .partlbryrct{
+        border: 2px solid red;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    } */
+    .lbry_vdeo1_rct{
+        border: 2px solid green;
+        background-image: url('./img/widgunz.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_vdeo2_rct{
+        border: 2px solid green;
+        background-image: url('./img/arafat.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_vdeo3_rct{
+        border: 2px solid green;
+        background-image: url('./img/damso_2.jpg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    .lbry_vdeo4_rct{
+        border: 2px solid green;
+        background-image: url('./img/asapRoc.jpeg');
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    
+    /***************/
+    .lbry_lg_fvrs{
+        border: 1px solid white;
+        border-radius: 5px;
+        background-image: url('./img/etoile.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+        background-image: url('../css/img/Capture_wizkhalifa.png');
+        background-size: cover;
+    }
+
 }

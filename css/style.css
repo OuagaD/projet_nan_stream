@@ -482,7 +482,7 @@
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1270px) and (max-width: 1800px){
     body{
         background-color: red;
     }
@@ -506,6 +506,7 @@
     }
     .namecorps2img1{
         border: 2px solid red;
+        color: red;
         position: relative;
         font-size: 2em;
         width: 150px;
@@ -551,7 +552,7 @@
 
 
 
-@media screen  and  (max-width: 1000px){
+@media screen  and  (min-width: 650px) and (max-width: 1270px){
     body{
         background-color: rgb(132, 0, 255);
     }
@@ -563,6 +564,9 @@
     }
     .corps1lg{
         display: none;
+    }
+    .corps2{
+        overflow: hidden;
     }
     .corps2img1{
         position: relative;
@@ -748,7 +752,7 @@
 
 
 
-@media screen and (min-width: 310px) and (max-width: 850px) {
+@media screen and (max-width: 650px) {
     body{
         background-color: rgb(43, 255, 0);
     }
@@ -794,6 +798,9 @@
         width: 100%;
         height: 300px;
         max-height: 400px;
+    }
+    .corps1lg{
+        display: none;
     }
     .corps2{
         display: flex;
@@ -878,12 +885,15 @@
     }
     .corps3vdeo1{
         height: 150px;
+        width: 250px;
     }
     .corps3vdeo2{
         height: 150px;
+        width: 250px;
     }
     .corps3vdeo3{
         height: 150px;
+        width: 250px;
     }
     .lgfoot{
         height: 50px;
@@ -1255,10 +1265,10 @@
 
 
 /********************MUSIC******************************************MUSIC************************************MUSIC****/
-@media screen and (max-width: 450px){
+@media screen and (max-width: 650px){
     
     .bdymusic{
-        height: 1900px;
+        height: 2100px;
         background-color: #59585c;
     }
     .partmusic_nameabl{
@@ -1276,7 +1286,7 @@
         align-items: center;
         justify-content: space-around;
         border: 2px solid red;
-        height: 1000px;
+        height: 1100px;
     }
     .partmusic_alb_1{
         border: 2px solid #7A24EA;
@@ -1425,7 +1435,7 @@
 
 
 
-@media screen and (min-width: 450px) and (max-width: 1270px){
+@media screen and (min-width: 650px) and (max-width: 1270px){
     
     .bdymusic{
         height: 3000px;
@@ -1592,6 +1602,382 @@
     
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1270px) and (max-width: 1800px){
+    
+    .bdymusic{
+        height: 4500px;
+        background-color: #59585c;
+    }
+    .txtsearch{
+        width: 400px;
+        height: 60px;
+        font-size: 1.7em;
+    }
+    .lgrech{
+        width: 90px;
+        height: 90px;
+    }
+    .partmusic_nameabl{
+        margin: 20px auto;
+        width: 600px;
+        height: 150px;
+        background: linear-gradient(90deg, rgba(240, 237, 237, 0.479), #7a24ea8a);
+        color: white;
+        font-family: 'Mea Culpa', cursive;
+        font-size: 7em;
+        text-align: center;
+    }
+    .partmusic_alb{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 2px solid red;
+        height: 1000px;
+    }
+    .partmusic_alb_1{
+        border: 2px solid #7A24EA;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        background-image: url('../css/img/ni25G.png');
+        background-size: cover;
+        height: 750px;
+        width: 550px;
+    }
+    .tit_alb_1{
+        background-color: aliceblue;
+        opacity: 0.3;
+        width: 350px;
+        height: 55px;
+        margin-bottom: 15px;
+        color: #7416f0;
+        font-family: 'Dancing Script', cursive;
+        font-size: 3em;
+        text-align: center;
+    }
+    .cont_alb_defaut{
+        display: flex;
+        border: 2px solid red;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 600px;
+        width: 350px;
+        overflow: auto;
+    }
+    .alb_defaut{
+        background-color: aliceblue;
+        opacity: 0.3;
+        width: 350px;
+        height: 55px;
+    }
+    .alb_defautw{
+        background-color: aliceblue;
+        opacity: 0.4;
+        width: 650px;
+        height: 35px;
+    }
+    .partmusic_alb_2{
+        border: 2px solid #7A24EA;
+        background-image: url('../css/img/asake_rogn1.png');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        height: 750px;
+        width: 550px;
+    }
+    .cont_partmusic_audio{
+        border: 2px solid green;
+        display: flex;
+        justify-content: center;
+    }
+    .partmusic_audio{
+        border: 2px solid white;
+        background-image: url('../css/img/wizkid.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 700px;
+        width: 650px;
+    }
+    .partmusic_namebby{
+        margin: 20px auto;
+        width: 600px;
+        height: 150px;
+        background: linear-gradient(90deg, rgba(240, 237, 237, 0.479), #7a24ea8a);
+        color: white;
+        font-family: 'Mea Culpa', cursive;
+        font-size: 7em;
+        text-align: center;
+    }
+    .cont_bby{
+        border: 2px solid white;
+        height: 2000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .cont_bby_1{
+        border: 2px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .partmusic_namebby_img1{
+        border: 2px solid red;
+        height: 700px;
+        width: 1000px;
+        background-image: url('../css/img/Capture_boobaBBy.png');
+        background-size: cover;
+    }
+    .partmusic_namebby_txt1{
+        border: 2px solid red;
+        overflow:auto;
+        font-family: 'Dancing Script', cursive;
+        font-weight: bold;
+        height: 650px;
+        width: 800px;
+    }
+    .cont_bby_2{
+        border: 2px solid red;
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .partmusic_namebby_img2{
+        border: 2px solid red;
+        height: 700px;
+        width: 1000px;
+        background-image: url('../css/img/Capture_jayz.png');
+        background-size: cover;
+    }
+    .partmusic_namebby_txt2{
+        border: 2px solid red;
+        overflow:auto;
+        font-family: 'Dancing Script', cursive;
+        font-weight: bold;
+        height: 650px;
+        width: 800px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1800px){
+    
+    .bdymusic{
+        height: 5000px;
+        background-color: #4520b2;
+    }
+    .txtsearch{
+        width: 500px;
+        height: 65px;
+        font-size: 3em;
+    }
+    .lgrech{
+        width: 150px;
+        height: 150px;
+    }
+    .partmusic_nameabl{
+        margin: 20px auto;
+        width: 750px;
+        height: 200px;
+        background: linear-gradient(90deg, rgba(240, 237, 237, 0.479), #7a24ea8a);
+        color: white;
+        font-family: 'Mea Culpa', cursive;
+        font-size: 10em;
+        text-align: center;
+    }
+    .partmusic_alb{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 2px solid red;
+        height: 1000px;
+    }
+    .partmusic_alb_1{
+        border: 2px solid #7A24EA;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        background-image: url('../css/img/Ni.jpg');
+        background-size: cover;
+        height: 950px;
+        width: 750px;
+    }
+    .tit_alb_1{
+        background-color: aliceblue;
+        opacity: 0.3;
+        width: 450px;
+        height: 75px;
+        margin-bottom: 15px;
+        color: #7416f0;
+        font-family: 'Dancing Script', cursive;
+        font-size: 3.5em;
+        text-align: center;
+    }
+    .cont_alb_defaut{
+        display: flex;
+        border: 2px solid red;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 600px;
+        width: 450px;
+        overflow: auto;
+    }
+    .alb_defaut{
+        background-color: aliceblue;
+        opacity: 0.3;
+        width: 450px;
+        height: 55px;
+    }
+    .alb_defautw{
+        background-color: aliceblue;
+        opacity: 0.4;
+        width: 900px;
+        height: 35px;
+    }
+    .partmusic_alb_2{
+        border: 2px solid #7A24EA;
+        background-image: url('../css/img/Asake.jpeg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        height: 950px;
+        width: 750px;
+    }
+    .cont_partmusic_audio{
+        border: 2px solid green;
+        display: flex;
+        justify-content: center;
+    }
+    .partmusic_audio{
+        border: 2px solid white;
+        background-image: url('../css/img/wizkid.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 1000px;
+        width: 900px;
+    }
+    .partmusic_namebby{
+        margin: 20px auto;
+        width: 750px;
+        height: 250px;
+        background: linear-gradient(90deg, rgba(240, 237, 237, 0.479), #7a24ea8a);
+        color: white;
+        font-family: 'Mea Culpa', cursive;
+        font-size: 10em;
+        text-align: center;
+    }
+    .cont_bby{
+        border: 2px solid white;
+        height: 2000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .cont_bby_1{
+        border: 2px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .partmusic_namebby_img1{
+        border: 2px solid red;
+        height: 700px;
+        width: 1000px;
+        background-image: url('../css/img/Capture_boobaBBy.png');
+        background-size: cover;
+    }
+    .partmusic_namebby_txt1{
+        border: 2px solid red;
+        overflow:auto;
+        font-family: 'Dancing Script', cursive;
+        font-weight: bold;
+        height: 650px;
+        width: 800px;
+    }
+    .cont_bby_2{
+        border: 2px solid red;
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .partmusic_namebby_img2{
+        border: 2px solid red;
+        height: 700px;
+        width: 1000px;
+        background-image: url('../css/img/Capture_jayz.png');
+        background-size: cover;
+    }
+    .partmusic_namebby_txt2{
+        border: 2px solid red;
+        overflow:auto;
+        font-family: 'Dancing Script', cursive;
+        font-weight: bold;
+        height: 650px;
+        width: 800px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

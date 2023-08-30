@@ -4,17 +4,18 @@
 
 .barmenu{
     border: 3px solid rgb(131, 138, 30);
-    height: 120px;
+    height: 250px;
     display: flex;
     align-items: center;
     background-color: black;
 }
 .contmenu{
     border: 3px solid rgb(89, 0, 255);
+    margin: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 200px;
     width: 100%;
 }
 .cont_lgnam{
@@ -25,28 +26,28 @@
 .logomenu{
     background-image:url('././img/musique.png');
     background-size:cover;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
 .namelogo{
     border: 2px solid red;
 }
 .lgnamstr{
     color: white;
-    font-size: 3em;
+    font-size: 5em;
     font-family: 'Kelly Slab', cursive;
 }
 .lgnamon{
     color: white;
-    font-size: 2em;
+    font-size: 4em;
     font-family: 'Jacques Francois Shadow', cursive;
 }
 .titmenu{
     border: 2px solid red;
-    font-size: 5em;
+    font-size: 7em;
     text-align: center;
-    height: 100px;
-    width: 200px;
+    height: 180px;
+    width: 300px;
     color: #7A24EA;
     font-family: 'Mea Culpa', cursive;
 }
@@ -54,9 +55,9 @@
     border: 2px solid rgb(30, 255, 0);
 }
 .btnmenu{
-    height: 100px;
-    width: 100px;
-    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
     border: 2px solid rgba(255, 255, 255, 0.664);
     background-color: #BA3AF4;
     background-image: url('./img/liste.png');
@@ -75,7 +76,7 @@
     z-index: 2;
     background-color: rgba(255, 255, 255, 0.753);
     border: 2px solid red;
-    height: 300px;
+    height: 500px;
     width:  100%;
 }
 #affmenu{
@@ -84,9 +85,9 @@
 .affmenuX{
     border: 2px solid red;
     margin: auto;
-    width: 100px;
+    width: 200px;
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
     font-weight: bold;
     color: #BA3AF4;
 }
@@ -101,9 +102,9 @@
     display: none;
     background-color: #b93af48a;
     border: 2px solid #7A24EA;
-    border-radius: 20px;
-    height: 80px;
-    width: 1200px;
+    border-radius: 40px;
+    height: 150px;
+    width: 1700px;
     margin: 50px auto;display: none;
     display: flex;
     justify-content: space-around;
@@ -115,11 +116,11 @@
     color: white;
     transition: font-size 1s;
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 3em;
+    font-size: 5em;
     border-left: 2px solid #7A24EA;
 }
 .affmenutxt:hover{
-    font-size: 3.5em;
+    font-size: 5.3em;
 }
 .affmenutxt:visited{
     color: white;
@@ -130,7 +131,7 @@
 .corps1{
     display: flex;
     align-items: center;
-    height: 500px;
+    height: 1000px;
     border: 2px solid red;
     background: linear-gradient(90deg, white, #BA3AF4);
 }
@@ -138,8 +139,8 @@
     border: 2px solid rgb(0, 247, 255);
     background-size: cover;
     animation: fondu 10s ease-in-out infinite both;
-    height: 500px;
-    width: 700px;
+    height: 900px;
+    width: 1150px;
 }
 .corps1img:hover{
     animation-play-state: paused;
@@ -155,8 +156,8 @@
     background-size: cover;
     margin: auto;
     transition: widht 2s, height 4s, transform 2s;
-    height: 300px;
-    width: 300px;
+    height: 600px;
+    width: 600px;
 }
 .corps1lg:hover{
     transform: rotate(360deg);
@@ -168,7 +169,7 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
-    height: 700px;
+    height: 1000px;
     border: 2px solid rgb(0, 255, 136);
     background: linear-gradient(180deg, black, white);
 }
@@ -176,78 +177,90 @@
     position: relative;
     bottom: 50px;
     left: 20px;
-    height: 300px;
-    width: 400px;
-    transition: width 2s, height 10s;
+    height: 400px;
+    width: 500px;
+    transition: width 3s, height 10s;
     border: 2px solid rgb(166, 255, 0);
     background-image: url('./img/alphab.jpg');
     background-size: cover;
 }
 .corps2img1:hover{
-    height: 400px; 
-    width: 500px;
+    height: 580px; 
+    width: 700px;
     z-index: 1;
 }
 .namecorps2img1{
     position: relative;
-    color: white;
+    color: #7416f0;
     font-family: 'Mea Culpa', cursive;
     font-size: 3em;
     margin-top: -50px;
     left: 30px;
     
 }
+.cont_corps2img2{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .corps2img2{
     position: relative;
     right: 90px;
     top: 60px;
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
     transition: width 2s, height 4s;
     border: 2px solid red;
     background-image: url('./img/asak.webp');
     background-size: cover;
 }
 .corps2img2:hover{
-    height: 400px;
-    width: 500px;
+    height: 600px;
+    width: 700px;
+    top: -5px;
 }
 .namecorps2img2{
     position: relative;
     right: 90px;
-    top: 60px;
     color: white;
     font-family: 'Mea Culpa', cursive;
     font-size: 3em;
 }
 .namecorps2{
-    position: relative;
-    top: 60px;
-    right: 300px;
-    height: 70px;
-    width: 300px;
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+    height: 130px;
+    width: 500px;
     background: linear-gradient(90deg, rgba(240, 237, 237, 0.479), #7a24ea8a);
     color: white;
     font-family: 'Mea Culpa', cursive;
-    font-size: 3.5em;
+    font-size: 6em;
     text-align: right;
+}
+.cont_corps2img3{
+    border: 2px solid red;
 }
 .corps2img3{
     position: relative;
     bottom: 50px;
     right: 20px;
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
     transition: width 2s, height 4s;
     border: 2px solid rgb(68, 0, 255);
     background-image: url('./img/Ninho-2.jpg');
     background-size: cover;
 }
 .corps2img3:hover{
-    height: 400px;
-    width: 500px;
+    height: 600px;
+    width: 700px;
+    bottom: 35px;
 }
 .namecorps2img3{
+    position: relative;
+    top: 10px;
     color: white;
     font-family: 'Mea Culpa', cursive;
     font-size: 3em;
@@ -257,30 +270,30 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 500px;
+    height: 900px;
     background: linear-gradient(90deg, white, #BA3AF4);
 }
 .cont_corps3nam{
     display: flex;
     align-items: center;
     border: 2px solid green;
-    height: 100px;
+    height: 200px;
 }
 .namecorps3{
     position: relative;
-    height: 70px;
-    width: 350px;
+    height: 130px;
+    width: 500px;
     background: linear-gradient(90deg, #7a24ea8a, white);
     color: white;
     font-family: 'Mea Culpa', cursive;
-    font-size: 3.5em;
+    font-size: 6em;
     text-align: center;
     margin-left: auto;
     margin-right: 20px;
 }
 .cont_corps3vdeo1{
     border: 2px solid red;
-    height: 380px;
+    height: 900px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -289,28 +302,28 @@
     border: 2px solid red;
     background-image: url('./img/asake$.jpg');
     background-size: cover;
-    height: 250px;
-    width: 350px;
+    height: 500px;
+    width: 850px;
     border-radius: 15px;
 }
 .corps3vdeo2{
     border: 2px solid red;
     background-image: url('./img/b2o.jpg');
     background-size: cover;
-    height: 250px;
-    width: 350px;
+    height: 500px;
+    width: 850px;
     border-radius: 15px;
 }
 .corps3vdeo3{
     border: 2px solid red;
     background-image: url('./img/tutup.webp');
     background-size: cover;
-    height: 250px;
-    width: 350px;
+    height: 500px;
+    width: 850px;
     border-radius: 15px;
 }
 .foot{
-    height: 500px;
+    height: 700px;
     border: 2px solid red;
     background-color: black;
 }
@@ -319,14 +332,14 @@
     justify-content: center;
     align-items: center;
     border: 2px solid rgb(207, 1, 63);
-    height: 200px;
+    height: 350px;
 }
 .lgfoot{
     border: 2px solid rgb(197, 231, 43);
     background-image:url('./img/musique.png');
     background-size:cover;
-    height: 130px;
-    width: 130px;
+    height: 300px;
+    width: 300px;
     margin-right: 70px;
 }
 .abtfoot{
@@ -334,15 +347,14 @@
     flex-direction: column;
     align-items: flex-start;
     border: 2px solid rgb(197, 231, 43);
-    height: 150px;
-    width: 130px;
-    font-size: 1.2em;
+    height: 300px;
+    width: 200px;
+    font-size: 2.5em;
     color: white;
 }
 .Aboutfoot{
     border-left: 1px solid white;
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 1.2em;
     font-weight: bold;
 }
 .alfoot{
@@ -355,9 +367,9 @@
     flex-direction: column;
     align-items: flex-start;
     border: 2px solid rgb(197, 231, 43);
-    height: 150px;
-    width: 130px;
-    font-size: 1.2em;
+    height: 300px;
+    width: 200px;
+    font-size: 2.5em;
     color: white;
 }
 .Browsefoot{
@@ -371,9 +383,9 @@
     flex-direction: column;
     align-items: flex-start;
     border: 2px solid rgb(197, 231, 43);
-    height: 150px;
-    width: 130px;
-    font-size: 1.2em;
+    height: 300px;
+    width: 200px;
+    font-size: 2.5em;
     color: white;
 }
 .Resourcesfoot{
@@ -393,8 +405,8 @@
     display: flex;
     justify-content: space-between;
     border: 4px solid rgb(231, 238, 231);
-    height: 50px;
-    width: 1200px;
+    height: 100px;
+    width: 1900px;
 }  
 .txtcopfoot{
     display: flex;
@@ -410,7 +422,7 @@
     border: 2px solid rgb(255, 0, 170);
 } */
 .mfcopfoot{
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Alumni Sans', sans-serif;
 }
 .supCopfoot{
@@ -419,9 +431,10 @@
 .rsfoot{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border: 2px solid rgb(255, 0, 170);
     color: white;
-    width: 400px;
+    width: 650px;
 }
 .folfoot{
     display: flex;
@@ -431,34 +444,34 @@
     border-left: 2px solid rgb(255, 0, 170);
     color: white;
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 1.6em;
+    font-size: 2em;
 }
 .igfoot{
     background-image: url('./img/instagram.png');
     background-size: cover;
-    height: 50px;
-    width: 50px;
+    height: 90px;
+    width: 90px;
     border: 2px solid rgb(255, 0, 170);
 }
 .twitfoot{
     background-image: url('./img/twitter.png');
     background-size: cover;
-    height: 50px;
-    width: 50px;
+    height: 90px;
+    width: 90px;
     border: 2px solid rgb(255, 0, 170);
 }
 .fbfoot{
     background-image: url('./img/facebook.png');
     background-size: cover;
-    height: 50px;
-    width: 50px;
+    height: 90px;
+    width: 90px;
     border: 2px solid rgb(255, 0, 170);
 }
 .whatfoot{
     background-image: url('./img/whatsapp.png');
     background-size: cover;
-    height: 50px;
-    width: 50px;
+    height: 90px;
+    width: 90px;
     border: 2px solid rgb(255, 0, 170);
 }
 
@@ -822,6 +835,7 @@
         width: 300px;
     }
     .namecorps2img1{
+        color: green;
         position: relative;
         top: 50px;
     }
@@ -899,8 +913,22 @@
         height: 50px;
         max-width: 50px;
         width: 80px;
-
         margin-right: 10px;
+    }
+    .abtfoot{
+        height: 150px;
+        width: 100px;
+        font-size: 1.5em;
+    }
+    .brwefoot{
+        height: 150px;
+        width: 100px;
+        font-size: 1.5em;
+    }
+    .rscfoot{
+        height: 150px;
+        width: 100px;
+        font-size: 1.5em;
     }
     .footpart1{
         display: flex;
@@ -968,30 +996,8 @@
 
 
 
+/**£££££££££££££££££££££££££££**/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/********************VIDEO******************************************VIDEO************************************VIDEO****/
-
-.bdyvdeo{
-    background-color: #59585c;
-    height: 100%;
-    width: 100%;
-}
-.bdypagevideo{
-    border: 2px solid red;
-}
 .cont_search{
     border: 2px solid white;
     display: flex;
@@ -1013,237 +1019,545 @@
     background-image: url('../css/img/chercher.png');
     background-size: cover;
 }
-.partVdeo{
-    border: 2px solid rgb(2, 31, 2);
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.partVdeo_vdeoprinc{
-    position: relative;
-    z-index: 0;
-    height: 165px;
-    width: 290px;
-    border: 2px solid #7A24EA;
-    border-radius: 20px;  
-}
 
-.rbqVdeo_rnb{
-
-}
-.rbqVdeo_rnb_txt{
-    border: 2px solid #7A24EA;
-    border-radius: 15px;
-    box-shadow: 0px 5px 10px #7A24EA;
-    text-align: center;
-    font-family: 'Stick No Bills', sans-serif;
-    font-size: 2em;
-    width: 100px;  
-}
-.rbqVdeo_rnb{
-    border: 2px solid rgb(0, 225, 255);
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.rbqVdeo_rnb_vdeo1{
-    border: 2px solid rgb(166, 255, 0);
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.rbqVdeo_rnb_vdeo1_1{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.rnb_vdeo1_1{
-    height: 150px;
-    width: 250px;
-}
-.rbqVdeo_rnb_vdeo1_2{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.rnb_vdeo1_2{
-    height: 150px;
-    width: 250px;
-}
-.rbqVdeo_rnb_vdeo1_3{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.rnb_vdeo1_3{
-    height: 150px;
-    width: 250px;
-}
-
-/*****************/
-.rbqVdeo_frenchrp_txt{
-    border: 2px solid #7A24EA;
-    border-radius: 15px;
-    box-shadow: 0px 5px 10px #7A24EA;
-    text-align: center;
-    font-family: 'Stick No Bills', sans-serif;
-    font-size: 2em;
-    width: 150px;  
-}
-.rbqVdeo_frenchrp{
-    border: 2px solid rgb(0, 225, 255);
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.rbqVdeo_frenchrp_vdeo1{
-    border: 2px solid rgb(166, 255, 0);
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.rbqVdeo_frenchrp_vdeo1_1{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.frenchrp_vdeo1_1{
-    height: 150px;
-    width: 250px;
-}
-.rbqVdeo_frenchrp_vdeo1_2{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.frenchrp_vdeo1_2{
-    height: 150px;
-    width: 250px;
-}
-.rbqVdeo_frenchrp_vdeo1_3{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.frenchrp_vdeo1_3{
-    height: 150px;
-    width: 250px;
-}
+/**£££££££££££££££££££££££££££**/
 
 
-/*****************/
-.rbqVdeo_ivoryrp_txt{
-    border: 2px solid #7A24EA;
-    border-radius: 15px;
-    box-shadow: 0px 5px 10px #7A24EA;
-    text-align: center;
-    font-family: 'Stick No Bills', sans-serif;
-    font-size: 2em;
-    width: 150px;  
-}
-.rbqVdeo_ivoryrp{
-    border: 2px solid rgb(0, 225, 255);
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.rbqVdeo_ivoryrp_vdeo1{
-    border: 2px solid rgb(166, 255, 0);
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.rbqVdeo_ivoryrp_vdeo1_1{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.ivoryrp_vdeo1_1{
-    height: 150px;
-    width: 250px;
-}
-.rbqVdeo_ivoryrp_vdeo1_2{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.ivoryrp_vdeo1_2{
-    height: 150px;
-    width: 250px;
-}
-.rbqVdeo_ivoryrp_vdeo1_3{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.ivoryrp_vdeo1_3{
-    height: 150px;
-    width: 250px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************VIDEO******************************************VIDEO************************************VIDEO****/
+
+@media screen and (max-width: 650px){
+
+    .bdyvdeo{
+        background-color: #59585c;
+        height: 100%;
+        width: 100%;
+    }
+    .bdypagevideo{
+        border: 2px solid red;
+    }
+    .partVdeo{
+        border: 2px solid rgb(2, 31, 2);
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .partVdeo_vdeoprinc{
+        position: relative;
+        z-index: 0;
+        height: 165px;
+        width: 290px;
+        border: 2px solid #7A24EA;
+        border-radius: 20px;  
+    }
+    
+    .rbqVdeo_rnb{
+    
+    }
+    .rbqVdeo_rnb_txt{
+        border: 2px solid #7A24EA;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px #7A24EA;
+        text-align: center;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 2em;
+        width: 100px;  
+    }
+    .rbqVdeo_rnb{
+        border: 2px solid rgb(0, 225, 255);
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rbqVdeo_rnb_vdeo1{
+        border: 2px solid rgb(166, 255, 0);
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rbqVdeo_rnb_vdeo1_1{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .rnb_vdeo1_1{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_rnb_vdeo1_2{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .rnb_vdeo1_2{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_rnb_vdeo1_3{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .rnb_vdeo1_3{
+        height: 150px;
+        width: 250px;
+    }
+    
+    /*****************/
+    .rbqVdeo_frenchrp_txt{
+        border: 2px solid #7A24EA;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px #7A24EA;
+        text-align: center;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 2em;
+        width: 150px;  
+    }
+    .rbqVdeo_frenchrp{
+        border: 2px solid rgb(0, 225, 255);
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rbqVdeo_frenchrp_vdeo1{
+        border: 2px solid rgb(166, 255, 0);
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rbqVdeo_frenchrp_vdeo1_1{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .frenchrp_vdeo1_1{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_frenchrp_vdeo1_2{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .frenchrp_vdeo1_2{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_frenchrp_vdeo1_3{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .frenchrp_vdeo1_3{
+        height: 150px;
+        width: 250px;
+    }
+    
+    
+    /*****************/
+    .rbqVdeo_ivoryrp_txt{
+        border: 2px solid #7A24EA;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px #7A24EA;
+        text-align: center;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 2em;
+        width: 150px;  
+    }
+    .rbqVdeo_ivoryrp{
+        border: 2px solid rgb(0, 225, 255);
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rbqVdeo_ivoryrp_vdeo1{
+        border: 2px solid rgb(166, 255, 0);
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rbqVdeo_ivoryrp_vdeo1_1{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .ivoryrp_vdeo1_1{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_ivoryrp_vdeo1_2{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .ivoryrp_vdeo1_2{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_ivoryrp_vdeo1_3{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .ivoryrp_vdeo1_3{
+        height: 150px;
+        width: 250px;
+    }
+    
+    
+    /*****************/
+    .rbqVdeo_regg_txt{
+        border: 2px solid #7A24EA;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px #7A24EA;
+        text-align: center;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 2em;
+        width: 100px;  
+    }
+    .rbqVdeo_regg{
+        border: 2px solid rgb(0, 225, 255);
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rbqVdeo_regg_vdeo1{
+        border: 2px solid rgb(166, 255, 0);
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rbqVdeo_regg_vdeo1_1{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .regg_vdeo1_1{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_regg_vdeo1_2{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .regg_vdeo1_2{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_regg_vdeo1_3{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .regg_vdeo1_3{
+        height: 150px;
+        width: 250px;
+    }
+    
 }
 
 
-/*****************/
-.rbqVdeo_regg_txt{
-    border: 2px solid #7A24EA;
-    border-radius: 15px;
-    box-shadow: 0px 5px 10px #7A24EA;
-    text-align: center;
-    font-family: 'Stick No Bills', sans-serif;
-    font-size: 2em;
-    width: 100px;  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 650px) and (max-width: 1270px){
+
+    .bdyvdeo{
+        background-color: #59585c;
+        height: 100%;
+        width: 100%;
+    }
+    .bdypagevideo{
+        border: 2px solid red;
+    }
+    .partVdeo{
+        border: 2px solid rgb(2, 31, 2);
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .partVdeo_vdeoprinc{
+        position: relative;
+        z-index: 0;
+        height: 350px;
+        width: 620px;
+        border: 2px solid #7A24EA;
+        border-radius: 20px;  
+    }
+    .rbqVdeo_rnb_txt{
+        color: red;
+        border: 2px solid #7A24EA;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px #7A24EA;
+        text-align: center;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 4em;
+        width: 300px;  
+    }
+    .rbqVdeo_rnb{
+        border: 2px solid rgb(0, 225, 255);
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rbqVdeo_rnb_vdeo1{
+        border: 2px solid rgb(166, 255, 0);
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rbqVdeo_rnb_vdeo1_1{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .rnb_vdeo1_1{
+        height: 250px;
+        width: 250px;
+    }
+    .rbqVdeo_rnb_vdeo1_2{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .rnb_vdeo1_2{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_rnb_vdeo1_3{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .rnb_vdeo1_3{
+        height: 150px;
+        width: 250px;
+    }
+    
+    /*****************/
+    .rbqVdeo_frenchrp_txt{
+        border: 2px solid #7A24EA;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px #7A24EA;
+        text-align: center;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 2em;
+        width: 150px;  
+    }
+    .rbqVdeo_frenchrp{
+        border: 2px solid rgb(0, 225, 255);
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rbqVdeo_frenchrp_vdeo1{
+        border: 2px solid rgb(166, 255, 0);
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rbqVdeo_frenchrp_vdeo1_1{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .frenchrp_vdeo1_1{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_frenchrp_vdeo1_2{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .frenchrp_vdeo1_2{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_frenchrp_vdeo1_3{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .frenchrp_vdeo1_3{
+        height: 150px;
+        width: 250px;
+    }
+    
+    
+    /*****************/
+    .rbqVdeo_ivoryrp_txt{
+        border: 2px solid #7A24EA;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px #7A24EA;
+        text-align: center;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 2em;
+        width: 150px;  
+    }
+    .rbqVdeo_ivoryrp{
+        border: 2px solid rgb(0, 225, 255);
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rbqVdeo_ivoryrp_vdeo1{
+        border: 2px solid rgb(166, 255, 0);
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rbqVdeo_ivoryrp_vdeo1_1{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .ivoryrp_vdeo1_1{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_ivoryrp_vdeo1_2{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .ivoryrp_vdeo1_2{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_ivoryrp_vdeo1_3{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .ivoryrp_vdeo1_3{
+        height: 150px;
+        width: 250px;
+    }
+    
+    
+    /*****************/
+    .rbqVdeo_regg_txt{
+        border: 2px solid #7A24EA;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px #7A24EA;
+        text-align: center;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 2em;
+        width: 100px;  
+    }
+    .rbqVdeo_regg{
+        border: 2px solid rgb(0, 225, 255);
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rbqVdeo_regg_vdeo1{
+        border: 2px solid rgb(166, 255, 0);
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rbqVdeo_regg_vdeo1_1{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .regg_vdeo1_1{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_regg_vdeo1_2{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .regg_vdeo1_2{
+        height: 150px;
+        width: 250px;
+    }
+    .rbqVdeo_regg_vdeo1_3{
+        height: 150px;
+        width: 250px;
+        border: 2px solid #7A24EA;
+    }
+    .regg_vdeo1_3{
+        height: 150px;
+        width: 250px;
+    }
+    
 }
-.rbqVdeo_regg{
-    border: 2px solid rgb(0, 225, 255);
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.rbqVdeo_regg_vdeo1{
-    border: 2px solid rgb(166, 255, 0);
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.rbqVdeo_regg_vdeo1_1{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.regg_vdeo1_1{
-    height: 150px;
-    width: 250px;
-}
-.rbqVdeo_regg_vdeo1_2{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.regg_vdeo1_2{
-    height: 150px;
-    width: 250px;
-}
-.rbqVdeo_regg_vdeo1_3{
-    height: 150px;
-    width: 250px;
-    border: 2px solid #7A24EA;
-}
-.regg_vdeo1_3{
-    height: 150px;
-    width: 250px;
-}
+
+
+
 
 
 

@@ -12,7 +12,7 @@
 .contmenu{
     border: 3px solid rgb(89, 0, 255);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 200px;
     width: 100%;
@@ -25,20 +25,20 @@
 .logomenu{
     background-image:url('././img/musique.png');
     background-size:cover;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 .namelogo{
     border: 2px solid red;
 }
 .lgnamstr{
     color: white;
-    font-size: 5em;
+    font-size: 3.5em;
     font-family: 'Kelly Slab', cursive;
 }
 .lgnamon{
     color: white;
-    font-size: 4em;
+    font-size: 2em;
     font-family: 'Jacques Francois Shadow', cursive;
 }
 .titmenu{
@@ -54,9 +54,9 @@
     border: 2px solid rgb(30, 255, 0);
 }
 .btnmenu{
-    height: 200px;
-    width: 200px;
-    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
     border: 2px solid rgba(255, 255, 255, 0.664);
     background-color: #BA3AF4;
     background-image: url('./img/liste.png');
@@ -115,7 +115,7 @@
     color: white;
     transition: font-size 1s;
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 5em;
+    font-size: 3.5em;
     border-left: 2px solid #7A24EA;
 }
 .affmenutxt:hover{
@@ -335,8 +335,8 @@
     border: 2px solid rgb(197, 231, 43);
     background-image:url('./img/musique.png');
     background-size:cover;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     margin-right: 70px;
 }
 .abtfoot{
@@ -431,7 +431,7 @@
     align-items: center;
     border: 2px solid rgb(255, 0, 170);
     color: white;
-    width: 650px;
+    width: 500px;
 }
 .folfoot{
     display: flex;
@@ -446,29 +446,29 @@
 .igfoot{
     background-image: url('./img/instagram.png');
     background-size: cover;
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     border: 2px solid rgb(255, 0, 170);
 }
 .twitfoot{
     background-image: url('./img/twitter.png');
     background-size: cover;
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     border: 2px solid rgb(255, 0, 170);
 }
 .fbfoot{
     background-image: url('./img/facebook.png');
     background-size: cover;
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     border: 2px solid rgb(255, 0, 170);
 }
 .whatfoot{
     background-image: url('./img/whatsapp.png');
     background-size: cover;
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     border: 2px solid rgb(255, 0, 170);
 }
 
@@ -495,6 +495,14 @@
 @media screen and (min-width: 1270px) and (max-width: 1800px){
     body{
         background-color: red;
+    }
+    .logomenu{
+        
+    }
+    .btnmenu{
+        height: 100px;
+        width: 100px;
+        border-radius: 15px;
     }
     .affmenucont{
         width: 1200px;
@@ -821,26 +829,25 @@
         width: 150px;
     }
     .rsfoot{
-        width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-end;
         align-items: center;
     }
     .igfoot{
-        height: 80px;
-        width: 80px;
+        height: 50px;
+        width: 50px;
     }
     .twitfoot{
-        height: 80px;
-        width: 80px;
+        height: 50px;
+        width: 50px;
     }
     .fbfoot{
-        height: 80px;
-        width: 80px;
+        height: 50px;
+        width: 50px;
     }
     .whatfoot{
-        height: 80px;
-        width: 80px;
+        height: 50px;
+        width: 50px;
     }
 }
 

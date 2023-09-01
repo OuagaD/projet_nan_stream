@@ -180,7 +180,7 @@
 }
 .namecorps2img1{
     position: relative;
-    color: #7416f0;
+    color: white;
     font-family: 'Mea Culpa', cursive;
     font-size: 3em;
     margin-top: -50px;
@@ -509,7 +509,7 @@
     }
     .namecorps2img1{
         
-        color: red;
+        color: white;
         position: relative;
         font-size: 2em;
         width: 200px;
@@ -938,7 +938,7 @@
     }
     .corps1img{
         width: 100%;
-        height: 300px;
+        height: 100%;
         max-height: 400px;
     }
     .corps1lg{
@@ -964,7 +964,7 @@
         width: 300px;
     }
     .namecorps2img1{
-        color: green;
+        color: white;
         position: relative;
         top: 50px;
     }
@@ -1216,6 +1216,7 @@
     }
     .partVdeo_vdeoprinc{
         position: relative;
+        border: 2px solid #BA3AF4;
         z-index: 0;
         height: 165px;
         width: 290px;
@@ -1503,11 +1504,10 @@
         z-index: 0;
         height: 350px;
         width: 620px;
-        
+        border: 2px solid #BA3AF4;
         border-radius: 20px;  
     }
     .rbqVdeo_rnb_txt{
-        color: red;
         
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
@@ -1757,7 +1757,6 @@
         border-radius: 20px;  
     }
     .rbqVdeo_rnb_txt{
-        color: green;
         
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
@@ -2004,8 +2003,6 @@
         border-radius: 20px;  
     }
     .rbqVdeo_rnb_txt{
-        color: white;
-        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;

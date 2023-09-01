@@ -3,14 +3,12 @@
 }
 
 .barmenu{
-    border: 3px solid rgb(131, 138, 30);
     height: 250px;
     display: flex;
     align-items: center;
     background-color: black;
 }
 .contmenu{
-    border: 3px solid rgb(89, 0, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,7 +16,6 @@
     width: 100%;
 }
 .cont_lgnam{
-    border: 2px solid red;
     display: flex;
     align-items: center;
 }
@@ -29,7 +26,7 @@
     width: 150px;
 }
 .namelogo{
-    border: 2px solid red;
+
 }
 .lgnamstr{
     color: white;
@@ -42,7 +39,6 @@
     font-family: 'Jacques Francois Shadow', cursive;
 }
 .titmenu{
-    border: 2px solid red;
     font-size: 7em;
     text-align: center;
     height: 180px;
@@ -51,7 +47,6 @@
     font-family: 'Mea Culpa', cursive;
 }
 .hbmenu{
-    border: 2px solid rgb(30, 255, 0);
 }
 .btnmenu{
     height: 100px;
@@ -74,7 +69,6 @@
     position: absolute;
     z-index: 2;
     background-color: rgba(255, 255, 255, 0.753);
-    border: 2px solid red;
     height: 500px;
     width:  100%;
 }
@@ -82,7 +76,6 @@
     display: none;
 }
 .affmenuX{
-    border: 2px solid red;
     margin: auto;
     width: 200px;
     text-align: center;
@@ -95,12 +88,12 @@
     list-style-type: none;
 }
 .affmenuXnone:active{
-    color: #ffffff;
+    color: #7c5f8a;
 }
 .affmenucont{
     display: none;
     background-color: #b93af48a;
-    border: 2px solid #7A24EA;
+    
     border-radius: 40px;
     height: 150px;
     width: 1700px;
@@ -131,15 +124,13 @@
     display: flex;
     align-items: center;
     height: 1000px;
-    border: 2px solid red;
     background: linear-gradient(90deg, white, #BA3AF4);
 }
 .corps1img{
-    border: 2px solid rgb(0, 247, 255);
     background-size: cover;
     animation: fondu 10s ease-in-out infinite both;
-    height: 900px;
-    width: 1150px;
+    height: 1000px;
+    width: 1200px;
 }
 .corps1img:hover{
     animation-play-state: paused;
@@ -150,18 +141,19 @@
     100%{background-image: url('./img/imgcps1-removebg-preview.png');}
 }
 .corps1lg{
-    border: 2px solid rgb(0, 255, 21);
     background-image: url('./img/clelg.png');
     background-size: cover;
     margin: auto;
-    transition: widht 2s, height 4s, transform 2s;
+    transition: widht 2s, height 4s, transform 2s, position 4s, right 10s;
     height: 300px;
     width: 300px;
 }
 .corps1lg:hover{
+    position: relative;
     transform: rotate(360deg);
     height: 350px;
     width: 350px;
+    right: 100px;
 }
 .corps2{
     display: flex;
@@ -169,7 +161,6 @@
     align-items: center;
     position: relative;
     height: 1000px;
-    border: 2px solid rgb(0, 255, 136);
     background: linear-gradient(180deg, black, white);
 }
 .corps2img1{
@@ -179,7 +170,6 @@
     height: 400px;
     width: 500px;
     transition: width 3s, height 10s;
-    border: 2px solid rgb(166, 255, 0);
     background-image: url('./img/alphab.jpg');
     background-size: cover;
 }
@@ -198,7 +188,6 @@
     
 }
 .cont_corps2img2{
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -210,7 +199,6 @@
     height: 400px;
     width: 500px;
     transition: width 2s, height 4s;
-    border: 2px solid red;
     background-image: url('./img/asak.webp');
     background-size: cover;
 }
@@ -239,7 +227,6 @@
     text-align: right;
 }
 .cont_corps2img3{
-    border: 2px solid red;
 }
 .corps2img3{
     position: relative;
@@ -248,7 +235,6 @@
     height: 400px;
     width: 500px;
     transition: width 2s, height 4s;
-    border: 2px solid rgb(68, 0, 255);
     background-image: url('./img/Ninho-2.jpg');
     background-size: cover;
 }
@@ -275,7 +261,6 @@
 .cont_corps3nam{
     display: flex;
     align-items: center;
-    border: 2px solid green;
     height: 200px;
 }
 .namecorps3{
@@ -292,28 +277,24 @@
 }
 .cont_corps3vdeo1{
     overflow: hidden;
-    border: 2px solid red;
     height: 900px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
 }
 .corps3vdeo1{
-    border: 2px solid red;
     background-size: cover;
     height: 430px;
     width: 650px;
     border-radius: 15px;
 }
 .corps3vdeo2{
-    border: 2px solid red;
     background-size: cover;
     height: 430px;
     width: 650px;
     border-radius: 15px;
 }
 .corps3vdeo3{
-    border: 2px solid red;
     background-size: cover;
     height: 430px;
     width: 650px;
@@ -321,18 +302,15 @@
 }
 .foot{
     height: 700px;
-    border: 2px solid red;
     background-color: black;
 }
 .footpart1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(207, 1, 63);
     height: 350px;
 }
 .lgfoot{
-    border: 2px solid rgb(197, 231, 43);
     background-image:url('./img/musique.png');
     background-size:cover;
     height: 200px;
@@ -343,7 +321,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 2px solid rgb(197, 231, 43);
     height: 300px;
     width: 200px;
     font-size: 2.5em;
@@ -355,7 +332,7 @@
     font-weight: bold;
 }
 .alfoot{
-    border: 2px solid red;
+    
     font-size: 1em;
     font-family: 'Alumni Sans', sans-serif;
 }
@@ -363,7 +340,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 2px solid rgb(197, 231, 43);
+    
     height: 300px;
     width: 200px;
     font-size: 2.5em;
@@ -379,7 +356,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 2px solid rgb(197, 231, 43);
+    
     height: 300px;
     width: 200px;
     font-size: 2.5em;
@@ -395,20 +372,20 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    border: 2px solid rgb(38, 0, 255);
+   
     height: 300px;
 }
 .coopfoot{
     display: flex;
     justify-content: space-between;
-    border: 4px solid rgb(231, 238, 231);
+
     height: 100px;
     width: 1900px;
 }  
 .txtcopfoot{
     display: flex;
     align-items: center;
-    border: 2px solid rgb(255, 0, 170);
+   
     color: white;
 }
 /* .imgcop{
@@ -416,7 +393,7 @@
     background-size: cover;
     height: 30px;
     width: 30px;
-    border: 2px solid rgb(255, 0, 170);
+   
 } */
 .mfcopfoot{
     font-size: 2em;
@@ -429,7 +406,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid rgb(255, 0, 170);
+   
     color: white;
     width: 500px;
 }
@@ -438,7 +415,7 @@
     align-items: center;
     height: 50px;
     width: 100px;
-    border-left: 2px solid rgb(255, 0, 170);
+    border-left: 2px solid rgb(255, 255, 255);
     color: white;
     font-family: 'Alumni Sans', sans-serif;
     font-size: 2em;
@@ -448,28 +425,28 @@
     background-size: cover;
     height: 60px;
     width: 60px;
-    border: 2px solid rgb(255, 0, 170);
+   
 }
 .twitfoot{
     background-image: url('./img/twitter.png');
     background-size: cover;
     height: 60px;
     width: 60px;
-    border: 2px solid rgb(255, 0, 170);
+   
 }
 .fbfoot{
     background-image: url('./img/facebook.png');
     background-size: cover;
     height: 60px;
     width: 60px;
-    border: 2px solid rgb(255, 0, 170);
+   
 }
 .whatfoot{
     background-image: url('./img/whatsapp.png');
     background-size: cover;
     height: 60px;
     width: 60px;
-    border: 2px solid rgb(255, 0, 170);
+   
 }
 
 
@@ -494,7 +471,7 @@
 
 @media screen and (min-width: 1270px) and (max-width: 1800px){
     body{
-        background-color: red;
+       
     }
     .logomenu{
         
@@ -506,46 +483,70 @@
     }
     .affmenucont{
         width: 1200px;
-        height: 130px;
+        height: 230px;
+    }
+    .corps1{
+        height: 600px;
+    }
+    .corps1img{
+        height: 600px;
+        width: 800px;
     }
     .corps2img1{
-        width: 300px;
         bottom: 180px;
-        left: 50px;
+        left: 200px;
     }
     .corps2img1:hover{
-        height: 300px;
-        width: 350px;
+        height: 580px;
+        width: 650px;
     }
     .cont_corps2{
-        border: 2px solid red;
+        
     }
     .corps2img2:hover{
-        width: 480px;
+        width: 680px;
+        right: 200px;
     }
     .namecorps2img1{
-        border: 2px solid red;
+        
         color: red;
         position: relative;
         font-size: 2em;
-        width: 150px;
-        left: 50px;
+        width: 200px;
+        left: 200px;
         bottom: 130px;
     }
     .namecorps2img2{
         font-size: 2em;
     }
     .corps2img3{
-        width: 300px;
-        height: 250px;
-        right: 90px;
+        width: 400px;
+        height: 350px;
+        right: 190px;
     }
     .corps2img3:hover{
-        height: 350px;
-        width: 300;
+        width: 550px;
+        height: 450px;
+        right: 160px;
     }
     .namecorps2img3{
         font-size: 2em;
+    }
+    .corps3vdeo1{
+        height: 300px;
+        width: 400px;
+    }
+    .corps3vdeo2{
+        height: 300px;
+        width: 400px;
+    }
+    .corps3vdeo3{
+        height: 300px;
+        width: 400px;
+    }
+    .footpart1{
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -573,7 +574,7 @@
 
 @media screen  and  (min-width: 650px) and (max-width: 1270px){
     body{
-        background-color: rgb(132, 0, 255);
+        
     }
     .barmenu{
         height: 130px;
@@ -628,7 +629,7 @@
         font-size: 2.5em;
     }
     .corps1{
-        height: 700px;
+        height: 100%;
     }
     .corps1img{
         width: 100%;
@@ -648,7 +649,7 @@
         height: 250px;
         width: 300px;
         transition: width 2s, bottom 3s,left 4s;
-        border: 2px solid rgb(166, 255, 0);
+        
         background-image: url('./img/alphab.jpg');
         background-size: cover;
     }
@@ -661,7 +662,7 @@
     }
     .namecorps2img1{
         position: relative;
-        border: 2px solid red;
+        
         color: white;
         font-family: 'Mea Culpa', cursive;
         font-size: 2em;
@@ -677,7 +678,7 @@
         height: 280px;
         width: 300px;
         transition: width 2s, height 4s;
-        border: 2px solid red;
+        
         background-image: url('./img/asak.webp');
         background-size: cover;
     }
@@ -687,7 +688,7 @@
         z-index: 1;
     }
     .namecorps2img2{
-        border: 2px solid red;
+        
         position: relative;
         right: 30px;
         top: 60px;
@@ -715,7 +716,6 @@
         height: 250px;
         width: 300px;
         transition: width 2s, height 4s, right 2s, bottom 3s;
-        border: 2px solid rgb(68, 0, 255);
         background-image: url('./img/Ninho-2.jpg');
         background-size: cover;
     }
@@ -727,7 +727,7 @@
     }
     .namecorps2img3{
         position: relative;
-        border: 2px solid red;
+        
         color: white;
         font-family: 'Mea Culpa', cursive;
         font-size: 2em;
@@ -738,7 +738,7 @@
     .cont_corps3nam{
         display: flex;
         align-items: center;
-        border: 2px solid green;
+        
         height: 100px;
     }
     .namecorps3{
@@ -757,76 +757,80 @@
         height: 400px;
     }
     .cont_corps3vdeo1{
-        border: 2px solid red;
+        
         height: 250px;
     }
     .corps3vdeo1{
-        border: 2px solid red;
+        
         height: 200px;
         width: 250px;
         border-radius: 15px;
     }
     .corps3vdeo2{
-        border: 2px solid red;
+        
         height: 200px;
         width: 250px;
         border-radius: 15px;
     }
     .corps3vdeo3{
-        border: 2px solid red;
+        
         height: 200px;
         width: 250px;
         border-radius: 15px;
     }
+    .foot{
+        height: 400px;
+    }
     .lgfoot{
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
     }
     .abtfoot{
-        height: 200px;
-        width: 150px;
-        font-size: 2em;
+        height: 150px;
+        width: 100px;
+        font-size: 1.3em;
     }
     .brwefoot{
-        height: 200px;
-        width: 150px;
-        font-size: 2em;
+        height: 150px;
+        width: 100px;
+        font-size: 1.3em;
     }
     .rscfoot{
-        height: 200px;
-        width: 150px;
-        font-size: 2em;
+        height: 150px;
+        width: 100px;
+        font-size: 1.3em;
     }
     .footpart1{
+        height: 200px;  
         display: flex;
-        justify-content: space-around;
+        align-items: center;
+        justify-content:center;
     }
     .footpart2{
+        
         display: flex;
         justify-content:center;
         align-items: flex-end;
-        height: 300px;
+        height: 180px;
     }
     .coopfoot{
+        
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
         width: 100%;
-        height: 250px;
     }
     .txtcopfoot{
         justify-content: center;
     }
     .mfcopfoot{
-        border: 2px solid red;
-        font-size: 1.5em;
-        width: 1000px;
+        
+        font-size: 1em;
+        width: 350px;
         display: flex;
         justify-content: center;
     }
     .folfoot{
-        font-size: 2em;
-        width: 150px;
+        font-size: 1.3em;
     }
     .rsfoot{
         display: flex;
@@ -834,20 +838,20 @@
         align-items: center;
     }
     .igfoot{
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
     }
     .twitfoot{
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
     }
     .fbfoot{
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
     }
     .whatfoot{
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
     }
 }
 
@@ -880,7 +884,7 @@
 
 @media screen and (max-width: 650px) {
     body{
-        background-color: rgb(43, 255, 0);
+        
     }
     .barmenu{
         height: 90px;
@@ -929,7 +933,7 @@
         font-size: 2.6em;
     }
     .corps1{
-        border: 2px solid green;
+        
         height: 400px;
     }
     .corps1img{
@@ -947,7 +951,7 @@
         height: 1200px;
     }
     .cont_corps2img1{
-        border: 2px solid red;
+        
     }
     .corps2img1{
         height: 200px;
@@ -965,7 +969,7 @@
         top: 50px;
     }
     .cont_corps2img2{
-        border: 2px solid red;
+        
     }
     .corps2img2{
         height: 200px;
@@ -978,7 +982,7 @@
         width: 300px;
     }
     .namecorps2{
-       border: 2px solid red;
+       
        position: relative;
        left: -100px;
        bottom: -470px;
@@ -994,7 +998,7 @@
     .cont_corps2img3{
         display: flex;
         flex-direction: column;
-        border: 2px solid red;
+        
         height: 300px;
         width: 300px;
     }
@@ -1024,7 +1028,7 @@
         height: 50px;
     }
     .namecorps3{
-        border: 2px solid red;
+        
         position: relative;
         height: 50px;
         width: 200px;
@@ -1138,7 +1142,7 @@
 /**£££££££££££££££££££££££££££**/
 
 .cont_search{
-    border: 2px solid white;
+    
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -1152,7 +1156,7 @@
 }
 .lgrech{
     display: inline-block;
-    border: 2px solid red;
+    
     height: 30px;
     width: 30px;
     background-image: url('../css/img/chercher.png');
@@ -1196,15 +1200,15 @@
 @media screen and (max-width: 650px){
 
     .bdyvdeo{
-        background-color: #59585c;
+        
         height: 100%;
         width: 100%;
     }
     .bdypagevideo{
-        border: 2px solid red;
+        
     }
     .partVdeo{
-        border: 2px solid rgb(2, 31, 2);
+        
         height: 200px;
         display: flex;
         justify-content: center;
@@ -1215,7 +1219,7 @@
         z-index: 0;
         height: 165px;
         width: 290px;
-        border: 2px solid #7A24EA;
+        
         border-radius: 20px;  
     }
     
@@ -1223,7 +1227,7 @@
     
     }
     .rbqVdeo_rnb_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1232,7 +1236,7 @@
         width: 100px;  
     }
     .rbqVdeo_rnb{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -1240,43 +1244,48 @@
         justify-content: space-around;
     }
     .rbqVdeo_rnb_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
         height: 600px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
     .rbqVdeo_rnb_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .rnb_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
     .rbqVdeo_rnb_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .rnb_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
     .rbqVdeo_rnb_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .rnb_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
     
     /*****************/
     .rbqVdeo_frenchrp_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1285,7 +1294,7 @@
         width: 150px;  
     }
     .rbqVdeo_frenchrp{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -1293,36 +1302,42 @@
         justify-content: space-around;
     }
     .rbqVdeo_frenchrp_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 600px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
     .rbqVdeo_frenchrp_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .frenchrp_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
     .rbqVdeo_frenchrp_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .frenchrp_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
     .rbqVdeo_frenchrp_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .frenchrp_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
@@ -1330,7 +1345,7 @@
     
     /*****************/
     .rbqVdeo_ivoryrp_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1339,7 +1354,7 @@
         width: 150px;  
     }
     .rbqVdeo_ivoryrp{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -1347,36 +1362,42 @@
         justify-content: space-around;
     }
     .rbqVdeo_ivoryrp_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 600px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
     .rbqVdeo_ivoryrp_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .ivoryrp_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
     .rbqVdeo_ivoryrp_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .ivoryrp_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
     .rbqVdeo_ivoryrp_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .ivoryrp_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
@@ -1384,7 +1405,7 @@
     
     /*****************/
     .rbqVdeo_regg_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1393,7 +1414,7 @@
         width: 100px;  
     }
     .rbqVdeo_regg{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -1401,36 +1422,42 @@
         justify-content: space-around;
     }
     .rbqVdeo_regg_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 600px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
     .rbqVdeo_regg_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .regg_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
     .rbqVdeo_regg_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .regg_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
     .rbqVdeo_regg_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
-        border: 2px solid #7A24EA;
+        
     }
     .regg_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 150px;
         width: 250px;
     }
@@ -1457,15 +1484,15 @@
 @media screen and (min-width: 650px) and (max-width: 1270px){
 
     .bdyvdeo{
-        background-color: #59585c;
+        
         height: 100%;
         width: 100%;
     }
     .bdypagevideo{
-        border: 2px solid red;
+        
     }
     .partVdeo{
-        border: 2px solid rgb(2, 31, 2);
+        
         height: 400px;
         display: flex;
         justify-content: center;
@@ -1476,12 +1503,12 @@
         z-index: 0;
         height: 350px;
         width: 620px;
-        border: 2px solid #7A24EA;
+        
         border-radius: 20px;  
     }
     .rbqVdeo_rnb_txt{
         color: red;
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1490,7 +1517,7 @@
         width: 300px;  
     }
     .rbqVdeo_rnb{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 2500px;
         display: flex;
         flex-direction: column;
@@ -1498,7 +1525,7 @@
         justify-content: space-around;
     }
     .rbqVdeo_rnb_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 2000px;
         width: 500px;
         display: flex;
@@ -1506,30 +1533,33 @@
         justify-content: space-between;
     }
     .rbqVdeo_rnb_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .rnb_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
     .rbqVdeo_rnb_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .rnb_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
     .rbqVdeo_rnb_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .rnb_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
     
     /*****************/
     .rbqVdeo_frenchrp_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1538,7 +1568,7 @@
         width: 350px;  
     }
     .rbqVdeo_frenchrp{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 2500px;
         display: flex;
         flex-direction: column;
@@ -1546,7 +1576,7 @@
         justify-content: space-around;
     }
     .rbqVdeo_frenchrp_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 2000px;
         width: 500px;
         display: flex;
@@ -1554,23 +1584,26 @@
         justify-content: space-between;
     }
     .rbqVdeo_frenchrp_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .frenchrp_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
     .rbqVdeo_frenchrp_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .frenchrp_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
     .rbqVdeo_frenchrp_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .frenchrp_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
@@ -1578,7 +1611,7 @@
     
     /*****************/
     .rbqVdeo_ivoryrp_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1587,7 +1620,7 @@
         width: 350px;  
     }
     .rbqVdeo_ivoryrp{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 2500px;
         display: flex;
         flex-direction: column;
@@ -1595,7 +1628,7 @@
         justify-content: space-around;
     }
     .rbqVdeo_ivoryrp_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 2000px;
         width: 500px;
         display: flex;
@@ -1603,23 +1636,26 @@
         justify-content: space-between;
     }
     .rbqVdeo_ivoryrp_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .ivoryrp_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
     .rbqVdeo_ivoryrp_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .ivoryrp_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
     .rbqVdeo_ivoryrp_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .ivoryrp_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
@@ -1627,7 +1663,7 @@
     
     /*****************/
     .rbqVdeo_regg_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1636,7 +1672,7 @@
         width: 300px;  
     }
     .rbqVdeo_regg{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 2500px;
         display: flex;
         flex-direction: column;
@@ -1644,7 +1680,7 @@
         justify-content: space-around;
     }
     .rbqVdeo_regg_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 2000px;
         width: 500px;
         display: flex;
@@ -1652,23 +1688,26 @@
         justify-content: space-between;
     }
     .rbqVdeo_regg_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .regg_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
     .rbqVdeo_regg_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .regg_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
     .rbqVdeo_regg_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .regg_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 450px;
         width: 500px;
     }
@@ -1695,15 +1734,15 @@
 @media screen and (min-width: 1270px) and (max-width: 1800px){
 
     .bdyvdeo{
-        background-color: #59585c;
+        
         height: 100%;
         width: 100%;
     }
     .bdypagevideo{
-        border: 2px solid red;
+        
     }
     .partVdeo{
-        border: 2px solid rgb(2, 31, 2);
+        
         height: 450px;
         display: flex;
         justify-content: center;
@@ -1719,7 +1758,7 @@
     }
     .rbqVdeo_rnb_txt{
         color: green;
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1728,7 +1767,7 @@
         width: 300px;  
     }
     .rbqVdeo_rnb{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -1736,37 +1775,40 @@
         justify-content: space-around;
     }
     .rbqVdeo_rnb_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 500px;
         width: 1250px;
         display: flex;
         justify-content: space-between;
     }
     .rbqVdeo_rnb_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .rnb_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
     .rbqVdeo_rnb_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .rnb_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
     .rbqVdeo_rnb_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .rnb_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
     
     /*****************/
     .rbqVdeo_frenchrp_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1775,7 +1817,7 @@
         width: 380px;
     }
     .rbqVdeo_frenchrp{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -1783,30 +1825,33 @@
         justify-content: space-around;
     }
     .rbqVdeo_frenchrp_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 500px;
         width: 1250px;
         display: flex;
         justify-content: space-between;
     }
     .rbqVdeo_frenchrp_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .frenchrp_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
     .rbqVdeo_frenchrp_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .frenchrp_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
     .rbqVdeo_frenchrp_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .frenchrp_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
@@ -1814,7 +1859,7 @@
     
     /*****************/
     .rbqVdeo_ivoryrp_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1823,7 +1868,7 @@
         width: 300px;
     }
     .rbqVdeo_ivoryrp{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -1831,30 +1876,33 @@
         justify-content: space-around;
     }
     .rbqVdeo_ivoryrp_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 500px;
         width: 1250px;
         display: flex;
         justify-content: space-between;
     }
     .rbqVdeo_ivoryrp_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .ivoryrp_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
     .rbqVdeo_ivoryrp_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .ivoryrp_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
     .rbqVdeo_ivoryrp_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .ivoryrp_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
@@ -1862,7 +1910,7 @@
     
     /*****************/
     .rbqVdeo_regg_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1871,7 +1919,7 @@
         width: 300px;
     }
     .rbqVdeo_regg{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -1879,30 +1927,33 @@
         justify-content: space-around;
     }
     .rbqVdeo_regg_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 500px;
         width: 1250px;
         display: flex;
         justify-content: space-between;
     }
     .rbqVdeo_regg_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .regg_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
     .rbqVdeo_regg_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .regg_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
     .rbqVdeo_regg_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .regg_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 500px;
         width: 350px;
     }
@@ -1930,15 +1981,15 @@
 @media screen and (min-width: 1800px){
 
     .bdyvdeo{
-        background-color: #59585c;
+        
         height: 100%;
         width: 100%;
     }
     .bdypagevideo{
-        border: 2px solid red;
+        
     }
     .partVdeo{
-        border: 2px solid rgb(2, 31, 2);
+        
         height: 750px;
         display: flex;
         justify-content: center;
@@ -1954,7 +2005,7 @@
     }
     .rbqVdeo_rnb_txt{
         color: white;
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -1963,7 +2014,7 @@
         width: 450px;  
     }
     .rbqVdeo_rnb{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 1300px;
         display: flex;
         flex-direction: column;
@@ -1971,37 +2022,40 @@
         justify-content: space-around;
     }
     .rbqVdeo_rnb_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 1000px;
         width: 1780px;
         display: flex;
         justify-content: space-between;
     }
     .rbqVdeo_rnb_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .rnb_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
     .rbqVdeo_rnb_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .rnb_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
     .rbqVdeo_rnb_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .rnb_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
     
     /*****************/
     .rbqVdeo_frenchrp_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -2010,7 +2064,7 @@
         width: 600px; 
     }
     .rbqVdeo_frenchrp{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 1300px;
         display: flex;
         flex-direction: column;
@@ -2018,30 +2072,33 @@
         justify-content: space-around;
     }
     .rbqVdeo_frenchrp_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 1000px;
         width: 1780px;
         display: flex;
         justify-content: space-between;
     }
     .rbqVdeo_frenchrp_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .frenchrp_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
     .rbqVdeo_frenchrp_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .frenchrp_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
     .rbqVdeo_frenchrp_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .frenchrp_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
@@ -2049,7 +2106,7 @@
     
     /*****************/
     .rbqVdeo_ivoryrp_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -2058,7 +2115,7 @@
         width: 550px; 
     }
     .rbqVdeo_ivoryrp{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 1300px;
         display: flex;
         flex-direction: column;
@@ -2066,30 +2123,33 @@
         justify-content: space-around;
     }
     .rbqVdeo_ivoryrp_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 1000px;
         width: 1780px;
         display: flex;
         justify-content: space-between;
     }
     .rbqVdeo_ivoryrp_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .ivoryrp_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
     .rbqVdeo_ivoryrp_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .ivoryrp_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
     .rbqVdeo_ivoryrp_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .ivoryrp_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
@@ -2097,7 +2157,7 @@
     
     /*****************/
     .rbqVdeo_regg_txt{
-        border: 2px solid #7A24EA;
+        
         border-radius: 15px;
         box-shadow: 0px 5px 10px #7A24EA;
         text-align: center;
@@ -2106,7 +2166,7 @@
         width: 450px; 
     }
     .rbqVdeo_regg{
-        border: 2px solid rgb(0, 225, 255);
+       
         height: 1300px;
         display: flex;
         flex-direction: column;
@@ -2114,30 +2174,33 @@
         justify-content: space-around;
     }
     .rbqVdeo_regg_vdeo1{
-        border: 2px solid rgb(166, 255, 0);
+        
         height: 1000px;
         width: 1780px;
         display: flex;
         justify-content: space-between;
     }
     .rbqVdeo_regg_vdeo1_1{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .regg_vdeo1_1{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
     .rbqVdeo_regg_vdeo1_2{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .regg_vdeo1_2{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
     .rbqVdeo_regg_vdeo1_3{
-        border: 2px solid #7A24EA;
+        border: 5px double #7A24EA;
     }
     .regg_vdeo1_3{
+        border: 5px double #7A24EA;
         height: 900px;
         width: 550px;
     }
@@ -2154,7 +2217,7 @@
     
     .bdymusic{
         height: 2100px;
-        background-color: #59585c;
+        
     }
     .partmusic_nameabl{
         margin: 20px auto;
@@ -2170,11 +2233,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        border: 2px solid red;
+        
         height: 1100px;
     }
     .partmusic_alb_1{
-        border: 2px solid #7A24EA;
+        
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -2217,7 +2280,7 @@
         height: 35px;
     }
     .partmusic_alb_2{
-        border: 2px solid #7A24EA;
+        
         background-image: url('../css/img/asake_rogn1.png');
         background-size: cover;
         display: flex;
@@ -2229,12 +2292,12 @@
         width: 250px;
     }
     .cont_partmusic_audio{
-        border: 2px solid green;
+        
         display: flex;
         justify-content: center;
     }
     .partmusic_audio{
-        border: 2px solid white;
+        
         background-image: url('../css/img/wizkid.jpg');
         background-size: cover;
         display: flex;
@@ -2253,27 +2316,27 @@
         text-align: center;
     }
     .cont_bby{
-        border: 2px solid white;
+        
         height: 500px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
     .cont_bby_1{
-        border: 2px solid red;
+        
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     .partmusic_namebby_img1{
-        border: 2px solid red;
+        
         height: 150px;
         width: 150px;
         background-image: url('../css/img/Capture_boobaBBy.png');
         background-size: cover;
     }
     .partmusic_namebby_txt1{
-        border: 2px solid red;
+        background: linear-gradient(90deg, white, #BA3AF4);
         overflow:auto;
         font-family: 'Dancing Script', cursive;
         font-weight: bold;
@@ -2281,26 +2344,27 @@
         width: 330px;
     }
     .cont_bby_2{
-        border: 2px solid red;
+        
         display: flex;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     .partmusic_namebby_img2{
-        border: 2px solid red;
+        
         height: 150px;
         width: 150px;
         background-image: url('../css/img/Capture_jayz.png');
         background-size: cover;
     }
     .partmusic_namebby_txt2{
-        border: 2px solid red;
+        background: linear-gradient(90deg,#BA3AF4, white);
         overflow:auto;
         font-family: 'Dancing Script', cursive;
         font-weight: bold;
         height: 130px;
         width: 330px;
+        color: #1a0117;
     }
     
 
@@ -2324,7 +2388,7 @@
     
     .bdymusic{
         height: 3000px;
-        background-color: #59585c;
+        
     }
     .txtsearch{
         width: 300px;
@@ -2349,11 +2413,11 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        border: 2px solid red;
+        
         height: 1000px;
     }
     .partmusic_alb_1{
-        border: 2px solid #7A24EA;
+        
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -2377,7 +2441,7 @@
     }
     .cont_alb_defaut{
         display: flex;
-        border: 2px solid red;
+        
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
@@ -2398,7 +2462,7 @@
         height: 35px;
     }
     .partmusic_alb_2{
-        border: 2px solid #7A24EA;
+        
         background-image: url('../css/img/asake_rogn1.png');
         background-size: cover;
         display: flex;
@@ -2410,12 +2474,12 @@
         width: 360px;
     }
     .cont_partmusic_audio{
-        border: 2px solid green;
+        
         display: flex;
         justify-content: center;
     }
     .partmusic_audio{
-        border: 2px solid white;
+        
         background-image: url('../css/img/wizkid.jpg');
         background-size: cover;
         display: flex;
@@ -2435,27 +2499,27 @@
         text-align: center;
     }
     .cont_bby{
-        border: 2px solid white;
+        
         height: 1000px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
     .cont_bby_1{
-        border: 2px solid red;
+        
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     .partmusic_namebby_img1{
-        border: 2px solid red;
+        
         height: 450px;
         width: 450px;
         background-image: url('../css/img/Capture_boobaBBy.png');
         background-size: cover;
     }
     .partmusic_namebby_txt1{
-        border: 2px solid red;
+        background: linear-gradient(90deg, white, #BA3AF4);
         overflow:auto;
         font-family: 'Dancing Script', cursive;
         font-weight: bold;
@@ -2463,21 +2527,21 @@
         width: 330px;
     }
     .cont_bby_2{
-        border: 2px solid red;
+        
         display: flex;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     .partmusic_namebby_img2{
-        border: 2px solid red;
+        
         height: 450px;
         width: 450px;
         background-image: url('../css/img/Capture_jayz.png');
         background-size: cover;
     }
     .partmusic_namebby_txt2{
-        border: 2px solid red;
+        background: linear-gradient(90deg, #BA3AF4, white);
         overflow:auto;
         font-family: 'Dancing Script', cursive;
         font-weight: bold;
@@ -2508,7 +2572,7 @@
     
     .bdymusic{
         height: 4500px;
-        background-color: #59585c;
+        
     }
     .txtsearch{
         width: 400px;
@@ -2533,11 +2597,11 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        border: 2px solid red;
+        
         height: 1000px;
     }
     .partmusic_alb_1{
-        border: 2px solid #7A24EA;
+        
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -2561,7 +2625,7 @@
     }
     .cont_alb_defaut{
         display: flex;
-        border: 2px solid red;
+        
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
@@ -2582,7 +2646,7 @@
         height: 35px;
     }
     .partmusic_alb_2{
-        border: 2px solid #7A24EA;
+        
         background-image: url('../css/img/asake_rogn1.png');
         background-size: cover;
         display: flex;
@@ -2594,12 +2658,12 @@
         width: 550px;
     }
     .cont_partmusic_audio{
-        border: 2px solid green;
+        
         display: flex;
         justify-content: center;
     }
     .partmusic_audio{
-        border: 2px solid white;
+        
         background-image: url('../css/img/wizkid.jpg');
         background-size: cover;
         display: flex;
@@ -2619,27 +2683,27 @@
         text-align: center;
     }
     .cont_bby{
-        border: 2px solid white;
+        
         height: 2000px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
     .cont_bby_1{
-        border: 2px solid red;
+        
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     .partmusic_namebby_img1{
-        border: 2px solid red;
+        
         height: 700px;
         width: 1000px;
         background-image: url('../css/img/Capture_boobaBBy.png');
         background-size: cover;
     }
     .partmusic_namebby_txt1{
-        border: 2px solid red;
+        background: linear-gradient(90deg, white, #BA3AF4);
         overflow:auto;
         font-family: 'Dancing Script', cursive;
         font-weight: bold;
@@ -2647,21 +2711,21 @@
         width: 800px;
     }
     .cont_bby_2{
-        border: 2px solid red;
+        
         display: flex;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     .partmusic_namebby_img2{
-        border: 2px solid red;
+        
         height: 700px;
         width: 1000px;
         background-image: url('../css/img/Capture_jayz.png');
         background-size: cover;
     }
     .partmusic_namebby_txt2{
-        border: 2px solid red;
+        background: linear-gradient(90deg, #BA3AF4, white);
         overflow:auto;
         font-family: 'Dancing Script', cursive;
         font-weight: bold;
@@ -2690,7 +2754,7 @@
     
     .bdymusic{
         height: 5000px;
-        background-color: #4520b2;
+        
     }
     .txtsearch{
         width: 500px;
@@ -2715,11 +2779,11 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        border: 2px solid red;
+        
         height: 1000px;
     }
     .partmusic_alb_1{
-        border: 2px solid #7A24EA;
+        
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -2743,7 +2807,7 @@
     }
     .cont_alb_defaut{
         display: flex;
-        border: 2px solid red;
+        
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
@@ -2764,7 +2828,7 @@
         height: 50px;
     }
     .partmusic_alb_2{
-        border: 2px solid #7A24EA;
+        
         background-image: url('../css/img/Asake.jpeg');
         background-size: cover;
         display: flex;
@@ -2776,12 +2840,12 @@
         width: 750px;
     }
     .cont_partmusic_audio{
-        border: 2px solid green;
+        
         display: flex;
         justify-content: center;
     }
     .partmusic_audio{
-        border: 2px solid white;
+        
         background-image: url('../css/img/wizkid.jpg');
         background-size: cover;
         display: flex;
@@ -2801,27 +2865,27 @@
         text-align: center;
     }
     .cont_bby{
-        border: 2px solid white;
+        
         height: 2000px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
     .cont_bby_1{
-        border: 2px solid red;
+        
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     .partmusic_namebby_img1{
-        border: 2px solid red;
+        
         height: 700px;
         width: 1000px;
         background-image: url('../css/img/Capture_boobaBBy.png');
         background-size: cover;
     }
     .partmusic_namebby_txt1{
-        border: 2px solid red;
+        background: linear-gradient(90deg, white, #BA3AF4);
         overflow:auto;
         font-family: 'Dancing Script', cursive;
         font-weight: bold;
@@ -2829,21 +2893,21 @@
         width: 800px;
     }
     .cont_bby_2{
-        border: 2px solid red;
+        
         display: flex;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     .partmusic_namebby_img2{
-        border: 2px solid red;
+        
         height: 700px;
         width: 1000px;
         background-image: url('../css/img/Capture_jayz.png');
         background-size: cover;
     }
     .partmusic_namebby_txt2{
-        border: 2px solid red;
+        background: linear-gradient(90deg, #BA3AF4, white);
         overflow:auto;
         font-family: 'Dancing Script', cursive;
         font-weight: bold;
@@ -2880,7 +2944,7 @@
 @media screen and (max-width: 650px) {
     
     .bdylbry{
-        background-color: #8b9966;
+        
     }
     .cont_rct{
         display: flex;
@@ -2905,14 +2969,16 @@
         font-size: 1.5em;
     }
     .contlbry_rct{
-        border: 2px solid red;
+        
         display: flex;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
         height: 800px;
     }
     .cont_lbry_msc_rct{
-        border: 2px solid white;
+        border: 2px solid #7a24ea;
+        background-color: #1a0117;
         width: 350px;
         height: 350px;
         display: flex;
@@ -2920,7 +2986,7 @@
         align-items: center;
     }
     .lbry_name_msc{
-        border: 2px solid red;
+        
         width: 100px;
         text-align: center;
         font-size: 1.5em;
@@ -2929,39 +2995,38 @@
         background-color: black;
     }
     .cont_msc_rct{
-        border: 2px solid blue;
         width: 100%;
     }
     .partlbryrct{
-        border: 2px solid red;
+        
         height: 130px;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     .lbry_msc1_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/widgunz.jpg');
         background-size: cover;
         width: 150px;
         height: 100px;
     }
     .lbry_msc2_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/arafat.jpg');
         background-size: cover;
         width: 150px;
         height: 100px;
     }
     .lbry_msc3_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/damso_2.jpg');
         background-size: cover;
         width: 150px;
         height: 100px;
     }
     .lbry_msc4_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/asap-rocky-new-album-grid.webp');
         background-size: cover;
         width: 150px;
@@ -2971,7 +3036,8 @@
     
     /******************/
     .cont_lbry_vdeo_rct{
-        border: 2px solid white;
+        background-color: #1a0117;
+        border: 2px solid #7A24EA;
         width: 350px;
         height: 350px;
         display: flex;
@@ -2979,7 +3045,6 @@
         align-items: center;
     }
     .lbry_name_vdeo{
-        border: 2px solid red;
         width: 100px;
         text-align: center;
         font-size: 1.5em;
@@ -2988,39 +3053,39 @@
         background-color: black;
     }
     .cont_vdeo_rct{
-        border: 2px solid blue;
+        
         width: 100%;
     }
     /* .partlbryrct{
-        border: 2px solid red;
+        
         height: 130px;
         display: flex;
         align-items: center;
         justify-content: space-around;
     } */
     .lbry_vdeo1_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/widgunz.jpg');
         background-size: cover;
         width: 150px;
         height: 100px;
     }
     .lbry_vdeo2_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/arafat.jpg');
         background-size: cover;
         width: 150px;
         height: 100px;
     }
     .lbry_vdeo3_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/damso_2.jpg');
         background-size: cover;
         width: 150px;
         height: 100px;
     }
     .lbry_vdeo4_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/asap-rocky-new-album-grid.webp');
         background-size: cover;
         width: 150px;
@@ -3056,7 +3121,7 @@
 @media screen  and (min-width: 650px) and (max-width: 1270px) {
     
     .bdylbry{
-        background-color: #8b9966;
+        
     }
     .cont_rct{
         display: flex;
@@ -3081,14 +3146,15 @@
         font-size: 3em;
     }
     .contlbry_rct{
-        border: 2px solid red;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 2500px;
     }
     .cont_lbry_msc_rct{
-        border: 2px solid rgb(198, 228, 29);
+        background-color: #1a0117;
+        border: 2px solid #7A24EA;
         width: 800px;
         height: 1200px;
         display: flex;
@@ -3096,7 +3162,6 @@
         align-items: center;
     }
     .lbry_name_msc{
-        border: 2px solid red;
         width: 150px;
         text-align: center;
         font-size: 3em;
@@ -3105,39 +3170,38 @@
         background-color: black;
     }
     .cont_msc_rct{
-        border: 2px solid blue;
+        
         width: 100%;
     }
     .partlbryrct{
-        border: 2px solid red;
         height: 500px;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     .lbry_msc1_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/widgunz.jpg');
         background-size: cover;
         width: 350px;
         height: 300px;
     }
     .lbry_msc2_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/arafat.jpg');
         background-size: cover;
         width: 350px;
         height: 300px;
     }
     .lbry_msc3_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/damso_2.jpg');
         background-size: cover;
         width: 350px;
         height: 300px;
     }
     .lbry_msc4_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/asap-rocky-new-album-grid.webp');
         background-size: cover;
         width: 350px;
@@ -3147,7 +3211,8 @@
     
     /******************/
     .cont_lbry_vdeo_rct{
-        border: 2px solid white;
+        background-color: #1a0117;
+        border: 2px solid #7A24EA;
         width: 800px;
         height: 1200px;
         display: flex;
@@ -3155,7 +3220,6 @@
         align-items: center;
     }
     .lbry_name_vdeo{
-        border: 2px solid red;
         width: 150px;
         text-align: center;
         font-size: 3em;
@@ -3164,39 +3228,39 @@
         background-color: black;
     }
     .cont_vdeo_rct{
-        border: 2px solid blue;
+        
         width: 100%;
     }
     /* .partlbryrct{
-        border: 2px solid red;
+        
         height: 130px;
         display: flex;
         align-items: center;
         justify-content: space-around;
     } */
     .lbry_vdeo1_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/widgunz.jpg');
         background-size: cover;
         width: 350px;
         height: 300px;
     }
     .lbry_vdeo2_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/arafat.jpg');
         background-size: cover;
         width: 350px;
         height: 300px;
     }
     .lbry_vdeo3_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/damso_2.jpg');
         background-size: cover;
         width: 350px;
         height: 300px;
     }
     .lbry_vdeo4_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/asap-rocky-new-album-grid.webp');
         background-size: cover;
         width: 350px;
@@ -3234,7 +3298,7 @@
 @media screen and (min-width: 1270px) and (max-width: 1800px) {
     
     .bdylbry{
-        background-color: #8b9966;
+        
     }
     .cont_rct{
         display: flex;
@@ -3259,14 +3323,14 @@
         font-size: 4.5em;
     }
     .contlbry_rct{
-        border: 2px solid red;
+        border: 2px solid #7A24EA;
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 1300px;
     }
     .cont_lbry_msc_rct{
-        border: 2px solid rgb(198, 228, 29);
+        background-color: #1a0117;
         width: 100%;
         height: 650px;
         display: flex;
@@ -3274,7 +3338,6 @@
         align-items: center;
     }
     .lbry_name_msc{
-        border: 2px solid red;
         width: 290px;
         height: 100px;
         text-align: center;
@@ -3284,12 +3347,11 @@
         background-color: black;
     }
     .cont_msc_rct{
-        border: 2px solid blue;
         display: flex;
         width: 100%;
     }
     .partlbryrct{
-        border: 2px solid red;
+        
         height: 400px;
         width: 100%;
         display: flex;
@@ -3297,28 +3359,28 @@
         justify-content: space-around;
     }
     .lbry_msc1_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/widgunz.jpg');
         background-size: cover;
         width: 300px;
         height: 300px;
     }
     .lbry_msc2_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/arafat.jpg');
         background-size: cover;
         width: 300px;
         height: 300px;
     }
     .lbry_msc3_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/damso_2.jpg');
         background-size: cover;
         width: 300px;
         height: 300px;
     }
     .lbry_msc4_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/asapRoc.jpeg');
         background-size: cover;
         width: 300px;
@@ -3328,7 +3390,7 @@
     
     /******************/
     .cont_lbry_vdeo_rct{
-        border: 2px solid white;
+        background-color: #1a0117;
         width: 100%;
         height: 650px;
         display: flex;
@@ -3336,7 +3398,6 @@
         align-items: center;
     }
     .lbry_name_vdeo{
-        border: 2px solid red;
         width: 290px;
         height: 100px;
         text-align: center;
@@ -3346,40 +3407,39 @@
         background-color: black;
     }
     .cont_vdeo_rct{
-        border: 2px solid blue;
         display: flex;
         width: 100%;
     }
     /* .partlbryrct{
-        border: 2px solid red;
+        
         height: 130px;
         display: flex;
         align-items: center;
         justify-content: space-around;
     } */
     .lbry_vdeo1_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/widgunz.jpg');
         background-size: cover;
         width: 300px;
         height: 300px;
     }
     .lbry_vdeo2_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/arafat.jpg');
         background-size: cover;
         width: 300px;
         height: 300px;
     }
     .lbry_vdeo3_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/damso_2.jpg');
         background-size: cover;
         width: 300px;
         height: 300px;
     }
     .lbry_vdeo4_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/asapRoc.jpeg');
         background-size: cover;
         width: 300px;
@@ -3416,7 +3476,7 @@
 @media screen and (min-width: 1800px) {
     
     .bdylbry{
-        background-color: #8b9966;
+        
     }
     .cont_rct{
         display: flex;
@@ -3441,14 +3501,14 @@
         font-size: 4.5em;
     }
     .contlbry_rct{
-        border: 2px solid red;
+        border: 2px solid #7A24EA;
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 1500px;
     }
     .cont_lbry_msc_rct{
-        border: 2px solid rgb(198, 228, 29);
+        background-color: #1a0117;
         width: 100%;
         height: 900px;
         display: flex;
@@ -3456,7 +3516,6 @@
         align-items: center;
     }
     .lbry_name_msc{
-        border: 2px solid red;
         width: 290px;
         height: 100px;
         text-align: center;
@@ -3466,12 +3525,12 @@
         background-color: black;
     }
     .cont_msc_rct{
-        border: 2px solid blue;
+        
         display: flex;
         width: 100%;
     }
     .partlbryrct{
-        border: 2px solid red;
+        
         height: 600px;
         width: 100%;
         display: flex;
@@ -3479,28 +3538,28 @@
         justify-content: space-around;
     }
     .lbry_msc1_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/widgunz.jpg');
         background-size: cover;
         width: 500px;
         height: 500px;
     }
     .lbry_msc2_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/arafat.jpg');
         background-size: cover;
         width: 500px;
         height: 500px;
     }
     .lbry_msc3_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/damso_2.jpg');
         background-size: cover;
         width: 500px;
         height: 500px;
     }
     .lbry_msc4_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/asapRoc.jpeg');
         background-size: cover;
         width: 500px;
@@ -3510,7 +3569,7 @@
     
     /******************/
     .cont_lbry_vdeo_rct{
-        border: 2px solid white;
+        background-color: #1a0117;
         width: 100%;
         height: 900px;
         display: flex;
@@ -3518,7 +3577,6 @@
         align-items: center;
     }
     .lbry_name_vdeo{
-        border: 2px solid red;
         width: 290px;
         height: 100px;
         text-align: center;
@@ -3528,40 +3586,40 @@
         background-color: black;
     }
     .cont_vdeo_rct{
-        border: 2px solid blue;
+        
         display: flex;
         width: 100%;
     }
     /* .partlbryrct{
-        border: 2px solid red;
+        
         height: 130px;
         display: flex;
         align-items: center;
         justify-content: space-around;
     } */
     .lbry_vdeo1_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/widgunz.jpg');
         background-size: cover;
         width: 500px;
         height: 500px;
     }
     .lbry_vdeo2_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/arafat.jpg');
         background-size: cover;
         width: 500px;
         height: 500px;
     }
     .lbry_vdeo3_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/damso_2.jpg');
         background-size: cover;
         width: 500px;
         height: 500px;
     }
     .lbry_vdeo4_rct{
-        border: 2px solid green;
+        border: 2px solid #7A24EA;
         background-image: url('./img/asapRoc.jpeg');
         background-size: cover;
         width: 500px;
